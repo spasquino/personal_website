@@ -128,7 +128,7 @@ export default function Home() {
 
 
         {/* Social icons */}
-        <div className="mt-8 flex items-center justify-center gap-4">
+        <div className="mt-8 flex items-center justify-center gap-4 ">
           {[
             { href: socials.linkedin, label: "LinkedIn", icon: (
               <path d="M4.98 3.5a2.5 2.5 0 1 1 0 5.001 2.5 2.5 0 0 1 0-5.001zM3 9h4v12H3zM14.5 9c-2.21 0-3.5 1.204-4 2.049V9H7v12h3.5v-6.5c0-1.724 1.14-2.75 2.5-2.75s2.5 1.026 2.5 2.75V21H19v-6.965C19 10.993 17.21 9 14.5 9z"/>
@@ -146,7 +146,7 @@ export default function Home() {
               target="_blank"
               rel="noopener noreferrer"
               aria-label={s.label}
-              className="inline-flex items-center justify-center rounded px-3 py-2 bg-[#e6f0fa] text-gray-800 hover:bg-[#d9e8f5] transition-colors"
+              className="inline-flex items-center justify-center rounded px-3 py-2 bg-[#e6f0fa] text-gray-800 hover:bg-[#d9e8f5] transition-colors transform hover:scale-105"
             >
               <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
                 {s.icon}
