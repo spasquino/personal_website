@@ -54,7 +54,7 @@ export type Project = {
       {
         id: "m3h",
         title: "Multi-Modal Transformer for Early Cardiovascular Disease Prediction",
-        summary: "conducted research on a a multi-modal, multi-task transformer-based model to predict cardiovascular diseases from EKG signals, clinical notes, demographics, and lab results",
+        summary: "Conducted research on a a multi-modal, multi-task transformer-based model to predict cardiovascular diseases from EKG signals, clinical notes, demographics, and lab results",
         tags: ["Python", "PyTorch"],
       //   coverImage: "/projects/computer/cover.png",
         // reportUrl: "/projects/Research/report.pdf",
